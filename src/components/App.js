@@ -48,7 +48,7 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      account: '',
+      account: "0xE009C87D87072b9ad82f3A6231a896184b295349",
       ethTokenMock: null,
       balance: 0,
       transactions: []
@@ -72,6 +72,7 @@ class App extends Component {
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto" style={{ width: "500px" }}>
                 <a
+
                 >
                   <img src={ethLogo} width="150" />
                 </a>
